@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="Viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio</title>
 	<link rel="stylesheet" href="Style.css">
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-	<script>src="https://code.jquery.com/jquery-3.6.0.min.js"</script>
+	<script>src = "https://code.jquery.com/jquery-3.6.0.min.js"</script>
 </head>
+
 <body>
 	<nav class="navbar">
 		<div class="max-width">
@@ -21,7 +23,7 @@
 			<div class="menu-btn">
 				<i class="fas fa-bars"></i>
 			</div>
-		</div>		
+		</div>
 	</nav>
 
 	<!-- home sectie -->
@@ -29,9 +31,9 @@
 		<div class="max-width">
 			<div class="home-content">
 				<div class="text-1"> hello, my name is</div>
-				<div class="text-2" onclick ="myfunc()">Elijah Grant</div>
+				<div class="text-2" onclick="myfunc()">Elijah Grant</div>
 				<div class="text-3"> Am i a <span>College Student</span></div>
-				<script src="Script.js"></script>	
+				<script src="Script.js"></script>
 			</div>
 		</div>
 	</section>
@@ -41,18 +43,21 @@
 			<h2 class="title">Over Mij</h2>
 			<div class="about-content">
 				<div class="column left">
-				<div class="img" id="img" onclick="dis()"><img src="Personal Pictures/Me.jpg"alt=""></div>
+					<div class="img" id="img" onclick="dis()"><img src="Personal Pictures/Me.jpg" alt=""></div>
 				</div>
 				<div class="column right">
 					<div class="text">Ik ben Elijah Grant ik ben een <span>Student</span></div>
 					<p>Ik ben Elijah Grant
-						Op dit moment zit ik in mijn eerste jaar van de opleiding ICT Software. mijn hobby's zijn fitness en gamen. Ik ben een hardwerkende student op zoek naar werk. Ik wil mijn vaardigheden en passie gebruiken om vorm te geven. Heeft een positieve instelling en is bereid en gemotiveerd om nieuwe dingen te leren.
-						</p>
+						Op dit moment zit ik in mijn eerste jaar van de opleiding ICT Software. mijn hobby's zijn
+						fitness en gamen. Ik ben een hardwerkende student op zoek naar werk. Ik wil mijn vaardigheden en
+						passie gebruiken om vorm te geven. Heeft een positieve instelling en is bereid en gemotiveerd om
+						nieuwe dingen te leren.
+					</p>
 					<a href="Personal Pictures/CV.docx">Download CV</a>
 				</div>
-		</div>
+			</div>
 	</section>
-	
+
 	<!---Mij Vaardigheden sectie-->
 	<section class="skills" id="skills">
 		<div class="max-width">
@@ -60,12 +65,15 @@
 			<div class="skills-content">
 				<div class="column left">
 					<div class="text">My Creativiteit & Ervaring </div>
-					<p>Met veel enthousiasme wil ik solliciteren naar de stageplaats van software developer bij uw bedrijf. Mijn passie voor programmeren en mijn ambitie om in de softwareontwikkeling industrie te werken. Ik vind het super leuk dat er met mijn code een website wordt gebouwd, daarom beschouw ik mezelf als een geschikte kandidaat voor deze stage.</p>
+					<p>Met veel enthousiasme wil ik solliciteren naar de stageplaats van software developer bij uw
+						bedrijf. Mijn passie voor programmeren en mijn ambitie om in de softwareontwikkeling industrie
+						te werken. Ik vind het super leuk dat er met mijn code een website wordt gebouwd, daarom
+						beschouw ik mezelf als een geschikte kandidaat voor deze stage.</p>
 					<a href="Personal Pictures/Motivatiebrief.docx">Lees Meer</a>
 				</div>
 				<video width="320" height="240" controls>
 					<source src="Personal Pictures/Pro.mp4" type="video/mp4">
-				  </video>
+				</video>
 				<div class="column right">
 					<div class="bars">
 						<div class="info">
@@ -85,11 +93,17 @@
 							<span>JavaScript</span>
 							<span>30%</span>
 						</div>
-						<div class="line Cplus"></div>
+						<div class="line JavaScript"></div>
+						<div class="bars">
+							<div class="info">
+								<span>PHP</span>
+								<span>35%</span>
+							</div>
+							<div class="line PHP"></div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 	</section>
 	<!---contact sectie-->
 	<section class="contact" id="contact">
@@ -120,7 +134,7 @@
 								<div class="head">Email</div>
 								<div class="sub-title">elijahgrantkwaago@gmail.com</div>
 							</div>
-						</div>						
+						</div>
 					</div>
 				</div>
 				<div class="column right">
@@ -128,15 +142,16 @@
 					<form action="#">
 						<div class="field">
 							<div class="field name">
-								<input type="text" placeholder="Name"required>
+								<input type="text" placeholder="Name" required>
 							</div>
 							<div class="field email">
-								<input type="email" placeholder="Email"required>
+								<input type="email" placeholder="Email" required>
 							</div>
 							<div class="field">
 								<input type="text" placeholder="Onderwerpen" required>
 							</div>
-								<textarea class="textarea" cols="30" rows="10" placeholder="Beschrijf Onderwerpen"required></textarea>
+							<textarea class="textarea" cols="30" rows="10" placeholder="Beschrijf Onderwerpen"
+								required></textarea>
 							<div class="button">
 								<button type="submit">Stuur bericht</button>
 							</div>
@@ -148,4 +163,5 @@
 	</section>
 	<script src="Script.js"></script>
 </body>
+
 </html>
