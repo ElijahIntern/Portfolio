@@ -486,3 +486,7 @@ section {
 .about .about-content .right {
   flex: 100%;
 }
+
+*{
+  scroll-behavior: smooth;
+}
