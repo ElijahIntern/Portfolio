@@ -54,6 +54,7 @@
 .navbar.sticky .menu li a:hover {
   color: rgb(247, 222, 2);
 }
+
 /*home section styling*/
 .home {
   display: flex;
@@ -96,6 +97,7 @@
   color: crimson;
   background: none;
 }
+
 /*about section styling*/
 section {
   padding: 100px 0;
@@ -171,7 +173,6 @@ section {
 }
 
 /*skills section styling*/
-
 .skills .skills-content .column {
   width: calc(50% - 30px);
 }
@@ -179,7 +180,7 @@ section {
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #ff0000;
+  color: crimson;
 }
 .skills .skills-content .left a {
   display: inline-block;
@@ -259,7 +260,7 @@ section {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
-  color:#ff0000;
+  color: crimson;
 }
 .contact .contact-content .left p {
   text-align: justify;
@@ -317,6 +318,7 @@ section {
   font-size: 25px;
   color: crimson;
 }
+
 /*respomnsive media query start*/
 @media (max-width: 1300px) {
   .home .max-width {
@@ -328,7 +330,7 @@ section {
   background-color: #ff0000;
   border: none;
   font-size: 19px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 4px;
   width: 89px;
   text-align: center;
@@ -349,16 +351,17 @@ section {
   margin-left: -20px !important;
   margin-top: -120%;
   opacity: 0;
-  transition: all 0.8s
+  transition: all 0.8s;
 }
 
 .button:active:after {
   padding: 0;
   margin: 0;
   opacity: 1;
-  transition: 0s
+  transition: 0s;
 }
 
+/*Extra Media query*/
 @media (min-width: 768px) {
   .button-82-front {
     font-size: 1.25rem;
@@ -373,10 +376,7 @@ section {
 
 .button-82-pushable:hover .button-82-front {
   transform: translateY(-6px);
-  transition:
-    transform
-    250ms
-    cubic-bezier(.3, .7, .4, 1.5);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
 }
 
 .button-82-pushable:active .button-82-front {
@@ -386,10 +386,7 @@ section {
 
 .button-82-pushable:hover .button-82-shadow {
   transform: translateY(4px);
-  transition:
-    transform
-    250ms
-    cubic-bezier(.3, .7, .4, 1.5);
+  transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
 }
 
 .button-82-pushable:active .button-82-shadow {
@@ -401,6 +398,7 @@ section {
   outline: none;
 }
 
+/*Extra Media query*/
 @media (max-width: 1104px) {
   .about .about-content .left img {
     height: 350px;
@@ -480,6 +478,6 @@ section {
   flex: 100%;
 }
 
-*{
+* {
   scroll-behavior: smooth;
 }
